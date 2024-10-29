@@ -1,0 +1,49 @@
+package br.dev.piece3D.pieceweb.modelDTO;
+
+import br.dev.piece3D.pieceweb.enums.TipoUsuario;
+
+public class LoginDTO {
+
+		private Long id;
+		private String email;
+		private String password;
+		private TipoUsuario tipoUser;
+
+		public String getEmail() {
+			return email;
+		}
+
+		public void setEmail(String email) {
+			this.email = email;
+		}
+
+		public String getPassword() {
+			return password;
+		}
+
+		public void setPassword(String password) {
+			this.password = password;
+		}
+
+		public TipoUsuario getTipoUser() {
+			return tipoUser;
+		}
+
+		public void setTipoUser(TipoUsuario tipoUser) {
+			this.tipoUser = tipoUser;
+		}
+
+		public Long getId() {
+			return id;
+		}
+
+		public void setId(Long id) {
+			this.id = id;
+		}
+		
+		
+
+	}
+
+
+
